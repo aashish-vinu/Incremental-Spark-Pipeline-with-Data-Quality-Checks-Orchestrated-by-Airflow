@@ -25,16 +25,10 @@ with DAG(
 ) as dag:
 
     run_spark_clean = BashOperator(
-        task_id='run_spark_clean',
-        bash_command="""
-        spark-submit --master local[*] /opt/airflow/scripts/clean_taxi.py
-        """,
-        env={
-            "SPARK_HOME": "/opt/spark",
-            "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64",
-        },
+        task_id="run_spark_clean",
+        bash_command="/opt/spark/bin/spark-submit --master local[*] /opt/airflow/scripts/clean_taxi.py",
     )
-
+    
     def check_data_quality(**context):
         stats_file = "/opt/airflow/data/stats.json"
         if not os.path.exists(stats_file):
@@ -46,17 +40,12 @@ with DAG(
         processed_months = stats.get("processed_months", [])
         records_after = stats.get("records_after", 0)
 
-        if len(processed_months) == 0:
-            print("No new data processed  skipping quality check failure.")
-            return 'skip_alert'
-
         if records_after == 0:
             raise ValueError(f"Data quality failed: 0 valid records after cleaning for months {processed_months}")
 
 
         context['ti'].xcom_push(key='cleaning_stats', value=stats)
-        print(f"Quality check passed: {records_after} valid records")
-        return 'quality_passed'
+        return 'push_stats_to_xcom'
 
     quality_check = BranchPythonOperator(
         task_id='quality_check',
@@ -71,17 +60,5 @@ with DAG(
         trigger_rule=TriggerRule.NONE_FAILED_MIN_ONE_SUCCESS,
     )
 
-    success_task = BashOperator(
-        task_id='quality_passed',
-        bash_command='echo "Pipeline completed successfully"',
-    )
-
-    skip_alert = BashOperator(
-        task_id='skip_alert',
-        bash_command='echo "No new data  nothing to do"',
-    )
-
     run_spark_clean >> quality_check
-    quality_check >> success_task
-    quality_check >> skip_alert
-    [success_task, skip_alert] >> push_stats_to_xcom
+    quality_check >> push_stats_to_xcom

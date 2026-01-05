@@ -80,12 +80,12 @@ else:
     rejected = initial_count - final_count
 
     print(f"After cleaning: {final_count} records (rejected: {rejected})")
-    
-    for month in new_months:
-        cleaned_df.filter(col("month") == month).write \
-            .mode("append") \
-            .partitionBy("year", "month") \
-            .parquet(OUTPUT_DIR)
+
+    (cleaned_df.write
+     .mode("append")  
+     .partitionBy("year", "month")
+     .parquet(OUTPUT_DIR))
+
 
     all_processed = list(set(processed_months + new_months))
     save_processed_months(all_processed)

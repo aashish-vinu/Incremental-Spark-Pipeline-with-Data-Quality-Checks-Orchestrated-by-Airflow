@@ -1,0 +1,63 @@
+[2026-01-05T11:54:20.681+0000] {processor.py:186} INFO - Started process (PID=852) to work on /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:54:20.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/taxi_clean_dag.py for tasks to queue
+[2026-01-05T11:54:20.685+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:54:20.685+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:54:20.696+0000] {processor.py:925} INFO - DAG(s) 'taxi_clean_pipeline' retrieved from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:54:20.738+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:54:20.738+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-05T11:54:20.770+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:54:20.770+0000] {dag.py:4180} INFO - Setting next_dagrun for taxi_clean_pipeline to None, run_after=None
+[2026-01-05T11:54:20.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/taxi_clean_dag.py took 0.158 seconds
+[2026-01-05T11:54:51.123+0000] {processor.py:186} INFO - Started process (PID=857) to work on /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:54:51.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/taxi_clean_dag.py for tasks to queue
+[2026-01-05T11:54:51.143+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:54:51.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:54:51.166+0000] {processor.py:925} INFO - DAG(s) 'taxi_clean_pipeline' retrieved from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:54:51.238+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:54:51.238+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-05T11:54:51.260+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:54:51.259+0000] {dag.py:4180} INFO - Setting next_dagrun for taxi_clean_pipeline to None, run_after=None
+[2026-01-05T11:54:51.313+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/taxi_clean_dag.py took 0.205 seconds
+[2026-01-05T11:55:21.489+0000] {processor.py:186} INFO - Started process (PID=862) to work on /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:55:21.490+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/taxi_clean_dag.py for tasks to queue
+[2026-01-05T11:55:21.493+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:55:21.492+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:55:21.507+0000] {processor.py:925} INFO - DAG(s) 'taxi_clean_pipeline' retrieved from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:55:21.550+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:55:21.550+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-05T11:55:21.569+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:55:21.569+0000] {dag.py:4180} INFO - Setting next_dagrun for taxi_clean_pipeline to None, run_after=None
+[2026-01-05T11:55:21.591+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/taxi_clean_dag.py took 0.111 seconds
+[2026-01-05T11:55:51.874+0000] {processor.py:186} INFO - Started process (PID=867) to work on /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:55:51.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/taxi_clean_dag.py for tasks to queue
+[2026-01-05T11:55:51.888+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:55:51.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:55:51.904+0000] {processor.py:925} INFO - DAG(s) 'taxi_clean_pipeline' retrieved from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:55:51.943+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:55:51.942+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-05T11:55:51.964+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:55:51.964+0000] {dag.py:4180} INFO - Setting next_dagrun for taxi_clean_pipeline to None, run_after=None
+[2026-01-05T11:55:51.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/taxi_clean_dag.py took 0.129 seconds
+[2026-01-05T11:56:22.196+0000] {processor.py:186} INFO - Started process (PID=872) to work on /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:56:22.212+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/taxi_clean_dag.py for tasks to queue
+[2026-01-05T11:56:22.219+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:56:22.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:56:22.234+0000] {processor.py:925} INFO - DAG(s) 'taxi_clean_pipeline' retrieved from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:56:22.280+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:56:22.280+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-05T11:56:22.309+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:56:22.308+0000] {dag.py:4180} INFO - Setting next_dagrun for taxi_clean_pipeline to None, run_after=None
+[2026-01-05T11:56:22.355+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/taxi_clean_dag.py took 0.169 seconds
+[2026-01-05T11:56:52.630+0000] {processor.py:186} INFO - Started process (PID=877) to work on /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:56:52.633+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/taxi_clean_dag.py for tasks to queue
+[2026-01-05T11:56:52.639+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:56:52.639+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:56:52.655+0000] {processor.py:925} INFO - DAG(s) 'taxi_clean_pipeline' retrieved from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:56:52.703+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:56:52.703+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-05T11:56:52.721+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:56:52.720+0000] {dag.py:4180} INFO - Setting next_dagrun for taxi_clean_pipeline to None, run_after=None
+[2026-01-05T11:56:52.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/taxi_clean_dag.py took 0.133 seconds
+[2026-01-05T11:57:22.983+0000] {processor.py:186} INFO - Started process (PID=882) to work on /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:57:22.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/taxi_clean_dag.py for tasks to queue
+[2026-01-05T11:57:23.001+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:57:23.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:57:23.013+0000] {processor.py:925} INFO - DAG(s) 'taxi_clean_pipeline' retrieved from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:57:23.050+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:57:23.050+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-05T11:57:23.074+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:57:23.074+0000] {dag.py:4180} INFO - Setting next_dagrun for taxi_clean_pipeline to None, run_after=None
+[2026-01-05T11:57:23.108+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/taxi_clean_dag.py took 0.134 seconds
+[2026-01-05T11:57:53.374+0000] {processor.py:186} INFO - Started process (PID=887) to work on /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:57:53.388+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/taxi_clean_dag.py for tasks to queue
+[2026-01-05T11:57:53.392+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:57:53.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:57:53.404+0000] {processor.py:925} INFO - DAG(s) 'taxi_clean_pipeline' retrieved from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:57:53.447+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:57:53.447+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-05T11:57:53.467+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:57:53.467+0000] {dag.py:4180} INFO - Setting next_dagrun for taxi_clean_pipeline to None, run_after=None
+[2026-01-05T11:57:53.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/taxi_clean_dag.py took 0.131 seconds
+[2026-01-05T11:58:23.732+0000] {processor.py:186} INFO - Started process (PID=892) to work on /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:58:23.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/taxi_clean_dag.py for tasks to queue
+[2026-01-05T11:58:23.749+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:58:23.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:58:23.760+0000] {processor.py:925} INFO - DAG(s) 'taxi_clean_pipeline' retrieved from /opt/airflow/dags/taxi_clean_dag.py
+[2026-01-05T11:58:23.805+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:58:23.804+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-05T11:58:23.827+0000] {logging_mixin.py:190} INFO - [2026-01-05T11:58:23.827+0000] {dag.py:4180} INFO - Setting next_dagrun for taxi_clean_pipeline to None, run_after=None
+[2026-01-05T11:58:23.857+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/taxi_clean_dag.py took 0.133 seconds
